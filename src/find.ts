@@ -12,6 +12,11 @@ const main = async()=>{
             id: 1
         }
     })
+    // const findFirst = await prisma.post.findFirstOrThrow({
+    //     where: {
+    //         published: false
+    //     }
+    // })
 
     console.log({findFirst})
 }
